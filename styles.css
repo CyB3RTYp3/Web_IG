@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #242038;
+    color: #45335d;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #8d86c9;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1.5rem;
+    padding: 1rem 5rem;
+}
+
+.grid_items{
+    width:25rem;
+    max-height:10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #8d86c9;
+    border-radius: 4px;
+    padding: 1rem 0 0 0;
+    border-radius: 1rem;
+}
+
+.grid_items h1{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.grid_items div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E9EBF8;
+    width: 100%;
+    height:5rem;
+    border-radius: 0 0 1rem 1rem;
+    margin-top: 2rem;
+   padding: 0 1rem;
+}
+
+.grid_items div button{
+   border: none;
+   background-color: #8d86c9;
+   width: 3rem;
+   height: 3rem;
+   border-radius:50%;
+   color:white;
+   cursor: pointer;
+   
+}
+
+.grid_items div button a{
+    all: unset;
+}
